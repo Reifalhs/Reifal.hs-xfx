@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --primary-color: #171717;
+    --secondary-color: #171717;
+    --color-text: #fff;
+    --navbar-color: #fff;
+}
+
+/* Navbar */
+
+
+.boxnav {
+    position: fixed;
+    padding: 15px 0 15px 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 99;
+}
+
+.navbar .nav-link {
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+    color: var(--color-text);
+    text-decoration: none; 
+}
+
+
+/* .navbar .mx-auto .active {
+    border-radius: 5%;
+    background-color: var(--color-text);
+    color: red;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+} */
+
+.sosmed a {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: var(--color-text)
+    
+}
+
+.sosmed a:hover {
+    color: rgb(203, 203, 203);
+}
+
+
+/* Home */
+header {
+    background: var(--primary-color);
+}
+
+/* .home .hero-text {
+    margin-top: -70px;
+} */
+
+.home .header-box h1 {
+    font-size: 60px;
+}
+
+.home .header-box h3 {
+    animation-delay: 0.5s;
+}
+
+.home .header-box button {
+    animation-delay: 1.5s;
+}
+
+.home .header-box img {
+    width: 80%;
+}
+
+@media screen and (max-width: 575px) {
+    .home .header-box h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .home .header-box h1 {
+        font-size: 2.4rem;
+    }
+
+    .home .header-box p {
+        font-size: 14px;
+    }
+}
+
+/* About */
+.about {
+    background: var(--primary-color);
+}
+
+.about .titAbout {
+    padding-top: 40px;
+}
+
+
+.about .titAbout h1 {
+    font-size: 60px;
+}
+
+@media screen and (max-width: 999px) {
+    .about .techFront button {
+        margin-top: 7px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .about .titAbout h1 {
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 475px) {
+    .about .titAbout h1 {
+        font-size: 2.4rem;
+    }
+
+    .about .aboutTeks p {
+        font-size: 14px;
+    }
+
+
+}
+
+.about1 h3 {
+    color: var(--primary-color);
+    background-color: #fff;
+    padding: 3px 10px 3px 10px;
+    display: inline-block;
+}
+
+.about1 .techFront button {
+    margin-right: 10px;
+}
+
+.about1 .iTech {
+    margin-top: -3px;
+}
+
+
+/* projects */
+
+.projects .row .card {
+    background: #1c1c1c;
+}
+
+.projects .row:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.projects img {
+    width: 100%;
+}
+
+.projects .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+}
+
+/* contact */
+
+.contact form {
+    width: 70%;
+}
+
+.contact .iCon {
+    margin-top: -3px;
+}
