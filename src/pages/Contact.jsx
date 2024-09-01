@@ -24,7 +24,7 @@ const Contact = () => {
             </ScrollAnimation>
             <ScrollAnimation animationVariants={fadeInUp} delay={0.3}>
               <p className='text-center'>Interested in connecting? Need web solutions for your business?
-              Let's get to know each other! Feel free to reach out and start a conversation. Im here to help.</p>
+              Let's get to know each other! Feel free to reach out and start a conversation. </p>
             </ScrollAnimation>
             <form action="https://formspree.io/f/xpwabvdp" method='POST' className='row justify-content-center mx-auto'>
               <ScrollAnimation animationVariants={fadeInUp} delay={0.5}>
